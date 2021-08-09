@@ -19,7 +19,7 @@ import insertTextAnywhere from 'insert-text-anywhere';
 Or as a CommonJS:
 
 ```js
-const insertTextAtCursor = require('insert-text-anywhere');
+const insertTextAnywhere = require('insert-text-anywhere');
 ```
 
 ```js
