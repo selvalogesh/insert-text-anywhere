@@ -1,0 +1,48 @@
+{
+  "name": "insert-text-anywhere",
+  "version": "1.0.0",
+  "description": "Cross-browser lib for inserting text at selection in a textarea / input",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "homepage": "https://github.com/selvalogesh/insert-text-anywhere-nodemodule",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selvalogesh/insert-text-anywhere.git"
+  },
+  "author": "Selva Logesh <https://github.com/selvalogesh>",
+  "dependencies": {
+    "insert-text-at-cursor": "^0.3.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "watch": "rollup -c rollup.config.js --watch",
+    "build": "rollup -c rollup.config.js",
+    "lint": "eslint index.js",
+    "format": "eslint index.js --fix",
+    "test": "echo 'Automated tests not available.'"
+  },
+  "keywords": [
+    "text",
+    "range",
+    "selection",
+    "textarea"
+  ],
+  "files": [
+    "index.js",
+    "dist/",
+    "LICENSE",
+    "test.html"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.1"
+  }
+}
