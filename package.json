@@ -4,7 +4,7 @@
   "description": "Cross-browser lib for inserting text at selection in a textarea / input",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
-  "homepage": "https://github.com/selvalogesh/insert-text-anywhere-nodemodule",
+  "homepage": "https://github.com/selvalogesh/insert-text-anywhere",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selvalogesh/insert-text-anywhere.git"
