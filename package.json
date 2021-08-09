@@ -1,6 +1,6 @@
 {
   "name": "insert-text-anywhere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-browser lib for inserting text at selection in a textarea / input",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
