@@ -24,7 +24,7 @@ const insertTextAnywhere = require('insert-text-anywhere');
 
 ```js
 // Simply send the text you want to insert
-insertTextAtCursor('foobar');
+insertTextAnywhere('foobar');
 ```
 
 ### Browser Support
@@ -41,7 +41,9 @@ Due to the nature of the APIs used, the library will always focus the target fie
 
 ### Motivation
 
-Extended functionality from the https://www.npmjs.com/package/insert-text-at-cursor module, where it had a shortcoming of binding the input carat to a single element with id, this module no longer needs an element id to be provided.
+Source code: https://github.com/selvalogesh/insert-text-anywhere
+
+This module inserts text wherever the input caret currently is, so it is not bound to a single element and no element id needs to be provided.
 
 All previously existing solution that I could find rely on getting full value of the the textarea, then slicing in necessary text, resetting new value and then restoring selection to the right position.
 
